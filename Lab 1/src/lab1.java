@@ -12,7 +12,7 @@ public class lab1 {
 		int b = 5;
 		int c = 10;
 		if (a + b == c) {
-			System.out.println("The implication is true");
+			System.out.print("The implication is ");
 		}
 		return a + b == c;
 	}
