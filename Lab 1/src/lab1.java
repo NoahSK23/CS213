@@ -22,10 +22,10 @@ public class lab1 {
 		int x = 7;
 		int s = 7;
 		if (x == s) {
-			System.out.println("The statement is equal");
+			System.out.println("The statement is equal because " + x + " is equal to " + s);
 			return x == s;
 		} else {
-			System.out.println("The statement is not equal");
+			System.out.println("The statement is not equal because " + x + " is not equal to " + s);
 			return x == s;
 		}
 	}
@@ -38,7 +38,7 @@ public class lab1 {
 			System.out.println("The statement is equal");
 			return x == s;
 		} else {
-			System.out.println("The statement is not equal, it is an Exclusive disjunction");
+			System.out.println("The statement is not equal, also known as an Exclusive disjunction");
 			return x == s;
 		}
 	}
