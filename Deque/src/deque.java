@@ -2,17 +2,17 @@ import java.util.*;
 
 public class deque {
 	public static void main(String[] args) {
-		Deque<String> d = new LinkedList<String>();
-		d.add("5");
-		d.addFirst("1");
-		d.addLast("9");
-		d.push("7");
-		d.offer("8");
-		d.offerFirst("6");
-		d.offerLast("2");
+		Deque<Integer> d = new LinkedList<Integer>();
+		d.add(4);
+		d.addFirst(3);
+		d.addLast(5);
+		d.push(2);
+		d.offer(6);
+		d.offerFirst(1);
+		d.offerLast(7);
 		System.out.println("The deque is: " + d);
 		System.out.print("\nDequeue using standard Iterator: ");
-		Iterator i = d.iterator();
+		Iterator<Integer> i = d.iterator();
 		while (i.hasNext()) {
 			System.out.print(i.next() + " ");
 		}
@@ -28,3 +28,13 @@ public class deque {
 		System.out.println("\nDeque after removing the first and last elements is: " + d);
 	}
 }
+
+/*
+ * display() void
+ * isEmpty() boolean
+ * push(k:int) void
+ * pop() : int
+ * peek() int
+ * enque(k:int) void
+ * deque():int
+ */
