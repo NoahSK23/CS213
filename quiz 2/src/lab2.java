@@ -28,15 +28,15 @@ public class lab2 {
 		return d;
 	}
 	
-	public static Deque<Integer> pollLast(Deque<Integer> d) {
-		System.out.println("\n" + "Que with last element in the Que removed");
-		d.pollLast();
+	public static Deque<Integer> pollFirst(Deque<Integer> d) {
+		System.out.println("\n" + "First element of the queue removed");
+		d.pollFirst();
 		return d;
 	}
 
-	public static Deque<Integer> pollFirst(Deque<Integer> d) {
-		System.out.println("\n" + "Que with First element in the Que removed");
-		d.pollFirst();
+	public static Deque<Integer> pollLast(Deque<Integer> d) {
+		System.out.println("\n" + "Last element of the queue removed");
+		d.pollLast();
 		return d;
 	}
 
