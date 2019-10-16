@@ -7,12 +7,17 @@ public class lab2 {
 		Deque<Integer> deque = new LinkedList<Integer>();
 		
 		Add(deque);
+		if (isEmpty(deque)) {	// Checks if the queue is empty
+			System.out.println("The queue is empty");
+		}
+		else {
 		System.out.println("This is your queue: " + deque + "\nWe will remove 1 and 7");
 		System.out.println("The initial size is: " + size(deque));
 		System.out.println("After the top and bottom elements are removed, there will be only 5");
 		System.out.println(pollFirst(deque));
 		System.out.println(pollLast(deque));
 		System.out.println("The size of the queue is now: " + deque + " with a size of: " + size(deque));
+		}
 
 	}
 	
