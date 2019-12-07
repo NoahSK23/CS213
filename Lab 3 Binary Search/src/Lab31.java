@@ -1,4 +1,4 @@
-public class BTS_InClass {
+public class Lab31 {
 	static Node root;
 
 	class Node {
@@ -87,7 +87,7 @@ public class BTS_InClass {
 	}
 
 	public static void main(String[] args) {
-		BTS_InClass tree = new BTS_InClass();
+		Lab31 tree = new Lab31();
 
 		tree.insert(1);
 		tree.insert(2);
